@@ -36,7 +36,7 @@ public class Robot extends LinearOpMode {
             L2.setPower(Range.clip((leftpower), -1, 1));
             R1.setPower(Range.clip((leftpower), -1, 1));
             R2.setPower(Range.clip((leftpower), -1, 1));
-            idle();
+
 
         }
     }
