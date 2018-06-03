@@ -34,8 +34,8 @@ public class Robot extends LinearOpMode {
             double rightpower = -gamepad1.right_stick_y;
             L1.setPower(Range.clip((leftpower), -1, 1));
             L2.setPower(Range.clip((leftpower), -1, 1));
-            R1.setPower(Range.clip((rightpower), -1, 1));
-            R2.setPower(Range.clip((rightpower), -1, 1));
+            R1.setPower(Range.clip((leftpower), -1, 1));
+            R2.setPower(Range.clip((leftpower), -1, 1));
             idle();
 
         }
